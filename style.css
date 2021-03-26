@@ -16,17 +16,19 @@ iframe {
 }
 
 .slideshow {
-  height: 1080px;
+  height: 100vh;
   max-width: 15336px;
   margin: 0 auto;
-  position: relative;
-  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   transform: translate3d(0, 0, 0);
   z-index: 1;
 }
 
 .slideshow > div {
-  height: 720px;
+  height: 100vh;
   width: 15336px;
   background: url(jujutsu-kaisen.jpg);
   position: absolute;
@@ -34,6 +36,7 @@ iframe {
   left: 0;
   height: 100%;
   transform: translate3d(0, 0, 0);
+  z-index: 1;
 }
 
 .slideshow .mover-1 {
