@@ -13,17 +13,15 @@ main {
 
 div.videobox {
   display: block;
-  height: 100%;
-  left: 25%;
+  left: 30%;
   position: absolute;
   top: 25%;
-  width: 100%;
   z-index: 2;
 }
 
 .slideshow {
   height: 100vh;
-  max-width: 15336px;
+  max-width: 19210px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -35,7 +33,7 @@ div.videobox {
 
 .slideshow > div {
   height: 100vh;
-  width: 15336px;
+  width: 19210px;
   background: url(jujutsu-kaisen.jpg);
   position: absolute;
   top: 0;
