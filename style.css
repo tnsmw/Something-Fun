@@ -1,0 +1,46 @@
+
+
+
+html {
+  font-size: 1rem;
+  font-family: 'Special Elite', cursive;
+  background-color: #1C1C1C;
+}
+
+main {
+  display:grid;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slideshow {
+  height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(Jujutsu_Kaisen.JPG);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+  animation: moveSlideshow 30s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Averia Serif Libre', cursive;
+  margin-bottom:1rem;
+}
