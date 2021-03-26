@@ -50,7 +50,7 @@ div.videobox {
 
 .slideshow .mover-1:hover {
   background-position: 0 -200px;
-  animation: moveSlideshow 40s linear infinite;
+  animation: moveSlideshow 30s linear infinite;
   opacity: 100%;
 }
 
