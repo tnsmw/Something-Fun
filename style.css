@@ -13,9 +13,9 @@ main {
 
 div.videobox {
   display: block;
-  left: 30%;
+  left: 22%;
   position: absolute;
-  top: 25%;
+  top: 18%;
   z-index: 2;
 }
 
@@ -44,7 +44,14 @@ div.videobox {
 
 .slideshow .mover-1 {
   background-position: 0 -200px;
+  animation: moveSlideshow 120s linear infinite;
+  opacity: 75%;
+}
+
+.slideshow .mover-1:hover {
+  background-position: 0 -200px;
   animation: moveSlideshow 40s linear infinite;
+  opacity: 100%;
 }
 
 @keyframes moveSlideshow {
